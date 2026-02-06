@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English');
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: black;
+    margin:auto;
+    width:90vw;
+    max-width:1600px;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    font-family: 'IM Fell English', serif;
+    color:white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-wrapper {
+    text-align: center;
+    width: 80%;
+}
+.logo img {
+    width: 100%;
+    max-width: 1000px;
+}
